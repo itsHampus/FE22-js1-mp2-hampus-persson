@@ -20,13 +20,13 @@ function startTheGame(event) {
     const chooseBetween = document.createElement('p');
     chooseBetween.innerText = 'Välj mellan Rock, Paper, Scissor';
     const rock = document.createElement('img');
-    rock.src = '../rock.jpeg';
+    rock.src = '../images/rock.jpeg';
     rock.id = 'rock';
     const paper = document.createElement('img');
-    paper.src = '../paperBag.jpeg';
+    paper.src = '../images/paperBag.jpeg';
     paper.id = 'paper';
     const scissor = document.createElement('img');
-    scissor.src = '../scissor.jpeg';
+    scissor.src = '../images/scissor.jpeg';
     scissor.id = 'scissor';
     const imgContainer = document.createElement('div');
     imgContainer.id = 'imgContainer';
